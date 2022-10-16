@@ -22,7 +22,7 @@ def pages(page_name):
 
 
 def write_to_file(data):
-    with open('/Users/adamtreska/Downloads/project_files/database.txt', 'a') as database:
+    with open('./database.txt', 'a') as database:
         email = data['email']
         subject = data['subject']
         message = data['message']
