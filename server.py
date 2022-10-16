@@ -31,7 +31,7 @@ def write_to_file(data):
 
 
 def write_to_csv(data):
-    with open('/Users/adamtreska/Downloads/project_files/database.csv', mode='a') as database:
+    with open('./database.csv', mode='a') as database:
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
